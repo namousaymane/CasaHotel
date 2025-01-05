@@ -1,0 +1,294 @@
+body {
+    background-color: #f5f5f5;
+    margin: 0px;
+}
+
+.navbar-expand-lg {
+    background-color: #ff9900;
+    width: 100%;
+    z-index: 10;
+    position: fixed;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+}
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar-nav a {
+    font-size: 1rem;
+    font-weight: bold;
+    color: #000;
+    padding: 10px 15px;
+    text-align: center;
+}
+
+.navbar-nav a:hover {
+    background-color: #ae6a05;
+}
+
+.header {
+    background-image: url("https://i.natgeofe.com/n/8db4f899-9179-4174-9516-70491944fe9a/city-evening-casablanca-morocco.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.header-content {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+    height: 100%;
+    align-content: space-evenly;
+}
+
+.header-title {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+}
+
+.header-text {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+
+.about {
+    margin-top: 2rem;
+}
+
+.about-title {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.about-text {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.about-img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    width: 100%;
+    height: 100%;
+}
+
+#book {
+    padding: 2rem;
+    padding-top: 5rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.book-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem; 
+    text-align: center;
+}
+
+.book-text {
+    font-size: 1.4rem;
+    margin-bottom: 1.5rem;
+    text-align: center;
+}
+
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+#add-form {
+    margin-top: 3rem;
+}
+
+#list {
+    margin-top: 5rem;
+}
+
+label {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+input.form-control {
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    transition: border-color 0.3s ease;
+}
+
+input.form-control:focus {
+    border-color: #ff9900;
+    box-shadow: 0 0 8px rgba(255, 153, 0, 0.3);
+}
+
+
+
+button[type="submit"] {
+    background-color: #ffc107;
+    color: #fff;
+    font-size: 1.2rem;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    align-self: center;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff9900;
+}
+
+.footer {
+    margin-top: 2rem;
+    padding: 3rem 0;
+    background-color: #343a40;
+    color: #fff;
+    text-align: center;
+}
+
+.footer-location {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-map {
+    margin-bottom: 2rem;
+}
+
+.footer-links {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.footer-links li {
+    margin: 0 1rem;
+}
+
+.footer-links a {
+    color: #fff;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: #ffc107;
+}
+
+.social-media {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.social-media li {
+    list-style: none;
+    margin-bottom: 1rem;
+}
+
+.social-media a {
+    color: #fff;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.social-media a:hover {
+    color: #ffc107;
+}
+
+.admin-access {
+    display: block;
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #fff;
+    background-color: #ffc107;
+    padding: 0.5rem 1.5rem;
+    text-decoration: none;
+    border-radius: 0.25rem;
+    text-align: center;
+}
+
+.admin-access:hover {
+    background-color: #ff9900;
+}
+
+.col-2 {
+    background-color: #343a40;
+    box-shadow: 2px 0px 5px rgba(0, 0, 0, 0.2);
+    width: 200px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+    z-index: 5;
+    margin-top: 0;
+    padding-top: 5rem;
+ 
+}
+
+.col-2 .nav-link {
+    color: #fff;
+    font-size: 1.1rem;
+    padding: 10px 15px;
+}
+
+.col-2 .nav-link:hover {
+    background-color: #495057;
+}
+
+.col-2 .nav-item {
+    margin-bottom: 10px;
+}
+
+.col-10 {
+    margin-left: 220px;
+    padding: 20px; 
+}
+
+.offset-md-3 {
+    margin-top: 5rem;
+}
+
+#index-button, #about-button {
+    font-size: 1.5rem;
+}
+
+.btn-primary {
+    background-color: #ffc107;
+    border-color: #ffc107;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.btn-primary:hover {
+    background-color: #ff9900;
+    border-color: #ff9900;
+}
+
+.btn-success,
+.btn-danger,
+.btn-primary {
+    font-size: 0.75rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    margin: 0.25rem;
+}
+

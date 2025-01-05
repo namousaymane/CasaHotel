@@ -1,0 +1,26 @@
+[
+  {
+    "number": 100,
+    "floor": 1,
+    "status": "Occupée",
+    "capacity": 2
+  },
+  {
+    "number": 101,
+    "floor": 1,
+    "status": "Occupée",
+    "capacity": 2
+  },
+  {
+    "number": 102,
+    "floor": 1,
+    "status": "Vide",
+    "capacity": 2
+  },
+  {
+    "number": 103,
+    "floor": 1,
+    "status": "Vide",
+    "capacity": 2
+  }
+]
